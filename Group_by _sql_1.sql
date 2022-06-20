@@ -1,0 +1,3 @@
+SELECT id, DATE, SUM(VALUE) AS total
+FROM sales 
+GROUP BY DATE 
